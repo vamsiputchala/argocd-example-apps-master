@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: 547123922677.dkr.ecr.ap-south-1.amazonaws.com/argocd
+  repository: public.ecr.aws/y0m7k9k2/argocd-ecr:latest
   tag: 0.1
   pullPolicy: IfNotPresent
 
