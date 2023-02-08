@@ -5,8 +5,8 @@
 replicaCount: 2
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
-  tag: 0.1
+  repository: public.ecr.aws/y0m7k9k2/argocd-ecr:latest
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
